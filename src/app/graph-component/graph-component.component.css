@@ -1,0 +1,32 @@
+.graph-component {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(176, 231, 131);
+  border: 2px solid #87aacc;
+  border-radius: 5px;
+}
+.connection-btn{
+  height: 35px;
+  border-radius: 8px;
+  font-size: x-large;
+  cursor: pointer;
+  background-color: #87aacc;
+}
+.btn-container{
+  padding-bottom: 20px;
+}
+.graph{
+  position: relative;
+}
+.test{
+  width: 510px;
+  height: 510px;
+  position: absolute;
+  background-color: rgb(176, 231, 131);
+  top: 145px;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+}

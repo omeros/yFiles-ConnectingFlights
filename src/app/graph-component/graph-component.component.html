@@ -1,0 +1,15 @@
+
+
+<div class="btn-container">
+    <button class="connection-btn" (click)="getFlights($event)">get all connections</button>
+</div>
+
+<div *ngIf="isFlights" class="test"> No Flights</div>
+<div class="graph">
+    <div #graphComponentRef class="graph-component"  ></div>
+</div>
+
+
+
+
+
